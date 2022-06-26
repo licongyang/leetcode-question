@@ -1,0 +1,11 @@
+# Project exclude paths
+/out/
+/.gitignore
+.idea
+*.log
+*.class
+*.md
+*.txt
+*.iml
+*.lcv
+/doc
