@@ -4,8 +4,4 @@
 .idea
 *.log
 *.class
-*.md
-*.txt
 *.iml
-*.lcv
-/doc
