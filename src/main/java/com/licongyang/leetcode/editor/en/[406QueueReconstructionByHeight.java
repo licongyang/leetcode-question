@@ -54,11 +54,16 @@ package com.licongyang.leetcode.editor.en;
 import java.util.Arrays;
 import java.util.LinkedList;
 
+/**
+ *  时间复杂度：排序O(nlogn)
+ *  空间复杂度：排序O(logn)
+ */
+
 //java:Queue Reconstruction by Height
 class P406QueueReconstructionByHeight {
     public static void main(String[] args) {
         Solution solution = new P406QueueReconstructionByHeight().new Solution();
-        int[][] ps = {{7, 0}, {7, 1}, {6, 1}, {5, 0}, {5, 2}, {4, 4}};
+        int[][] ps = {{5, 0}, {7, 0}, {7, 1}, {6, 1}, {5, 2}, {4, 4}};
         solution.reconstructQueue(ps);
     }
 
@@ -71,6 +76,22 @@ class P406QueueReconstructionByHeight {
                 linkedList.add(person[1],person);
             }
             return linkedList.toArray(new int[linkedList.size()][2]);
+//            int n = people.length;
+//            int[][] ans = new int[n][];
+//            for (int[] person : people) {
+//                int spaces = person[1] + 1;
+//                for (int i = 0; i < n; ++i) {
+//                    if (ans[i] == null) {
+//                        --spaces;
+//                        if (spaces == 0) {
+//                            ans[i] = person;
+//                            break;
+//                        }
+//                    }
+//                }
+//            }
+//            return ans;
+
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
