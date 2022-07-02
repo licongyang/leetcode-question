@@ -4,6 +4,12 @@
     - jdk liberica-1.8
 # idea leetcode插件安装
 ![](images/img_1.png)
+# leetcode登陆
+ - 通过账户、密码
+
+ - 通过cookie 
+ > 用你的账号在浏览器上登录leetcode.com网站 > 按F12 > 选择network > F5 刷新网页 > 找到graphql这个文件 > 点击后查看 Headers > 下滑找到cookie字段 > 复制cookie: 后的字符（不要 把 cookie:也带上了）
+
 # github同步
   1. 仓库同步
 
