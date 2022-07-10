@@ -5,3 +5,10 @@
 *.log
 *.class
 *.iml
+.gradle
+gradle
+gradlew
+gradlew.bat
+*.jar
+*.bin
+*.MF
